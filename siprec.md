@@ -24,8 +24,9 @@ This gives us a fully self-hosted alternative media pipeline that feeds directly
 ```mermaid
 flowchart LR
     SIPGW[SIP PBX / SBC (Any Vendor)] --> SIPREC
-    SIPREC --> STS[Standalone SIPREC → Deepgram Pipeline]
+    SIPREC --> STS[Standalone SIPREC -> Deepgram Pipeline]
     STS --> TCP[TCP / Servisbot Voice Fabric]
+
 ```
 
 ---
