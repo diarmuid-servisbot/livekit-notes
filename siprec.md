@@ -21,11 +21,12 @@ This gives us a fully self-hosted alternative media pipeline that feeds directly
 * **Supports compliance**, because SIPREC provides dual-stream (A/B sides)
 * Builds **Servisbot’s internal telephony expertise** rather than depending on 3rd parties
 
+### Goal
 ```mermaid
 flowchart LR
-    SIPGW[SIP PBX / SBC (Any Vendor)] --> SIPREC
+    PBX --> SIPREC
     SIPREC --> STS[Standalone SIPREC -> Deepgram Pipeline]
-    STS --> TCP[TCP / Servisbot Voice Fabric]
+    STS --> TCP[TCP / Servisbot Voice Fabric]c]
 
 ```
 
