@@ -1,8 +1,4 @@
-Below is a clean **5-slide presentation** in **Markdown**, each slide separated with `---`, plus **Mermaid diagrams** and **speaker notes** tailored to *your* implementation (SIP server ↔ LiveKit communication over private VPC ranges, agent connectivity, STUN/TURN considerations, etc.).
 
-You can copy/paste this directly into any markdown presentation tool (Marp, GitPitch, Deckset, RevealJS MD, etc.).
-
----
 
 # **Slide 1 — What Is LiveKit?**
 
