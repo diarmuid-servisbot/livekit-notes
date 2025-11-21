@@ -26,7 +26,7 @@ This gives us a fully self-hosted alternative media pipeline that feeds directly
 flowchart LR
     PBX --> SIPREC
     SIPREC --> STS[Standalone SIPREC -> Deepgram Pipeline]
-    STS --> TCP[TCP / Servisbot Voice Fabric]c]
+    STS --> TCP[TCP / Servisbot Voice Fabric]
 
 ```
 
